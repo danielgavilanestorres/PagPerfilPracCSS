@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*ENCABEZADO*/
+.encabezado{
+    background-color: #333333;
+    height: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.encFuncion{
+    width: 900px;
+    display: flex;
+}
+
+.logo{
+    flex: 1;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin: auto;
+    font-size: 2em;
+}
+
+.menu{
+    flex:4;
+    color: white;
+    text-align: left;
+    margin: auto;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.activo{
+    font-weight: bold;
+}
+
+.sesion{
+    flex: 1;
+    margin: auto;
+    text-align: right;
+}
+
+.sesion input{
+    width: 100px;
+    height: 30px;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+}
+
+/*CUERPO*/
+.cuerpo{
+    width: 900px;
+    margin: 0px auto;
+    height: 700px;
+    display: flex;
+}
+
+.cuerpo .cuerpo-izq{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.izqperfil{
+    border: 4px solid #999999;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    display: block;
+}
+
+.encPerfil{
+    border: 1px solid chartreuse;
+    display: contents;
+}
+
+.encPerfil div{
+    background-color: #17a2b8;
+    height: 85px;
+}
+
+.encPerfil img{
+    width: 90px;
+    border-radius: 50px;
+    background-color: black;
+    padding: 4px;
+    border: 3px solid #d8d8d8;
+    position: absolute;
+    top: 160px;
+    margin-left: 25px;
+}
+
+.cuerPerfil{
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.cuerPerfil p{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cuerPerfil img{
+    width: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cuerPerfil .ciudad{
+    font-weight: bold;
+    margin: auto;
+    vertical-align: top;
+}
+
+.cuerPerfil ul{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+ul li{
+    display: inline;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cuerPerfil label{
+    margin-left: 5px;
+}
+
+.piePerfil{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.piePerfil img{
+    width: 25px;
+}
+
+.izqeducacion{
+    border: 4px solid #999999;
+    margin-right: 30px;
+}
+
+.izqeducacion div{
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.izqeducacion .edu-1{
+    margin: 15px 0px 0px 25px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.izqeducacion .edu-2{
+    margin: 0px 0px 10px 25px;
+    color:  #999999;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.izqeducacion .edu-3{
+    margin: 0px 0px 10px 25px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.cuerpo .cuerpo-der{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.solConexion{
+    border: 3px solid #999999;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.conReq{
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    background-color: #333333;
+    color: white;
+}
+
+.conReq .cr1{
+    text-align: center;
+    margin: 12px;
+    width: 30px;
+    background-color:  #999999;
+    color: black;
+    font-weight: bold;
+    border-radius: 45%;
+}
+
+.conReq .cr2{
+    text-align: left;
+    margin: 11px auto 0px 5px;
+    font-weight: bold;
+}
+
+.solConexion .usuario{
+    display: flex;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.imgUsuario img{
+    width: 60px;
+    border-radius: 75%;
+    border: 3px solid black;
+    flex: 3;
+}
+
+.usuario label{
+    vertical-align: top;
+    font-weight: bold;
+    text-align: left;
+    margin: 15px 5px 15px 5px;
+    flex: 5;
+}
+
+.aceptar img, .cancelar img{
+    width: 30px;
+    margin: 10px 5px 10px 10px;
+    flex: 2;
+}
+
+.suConexion{
+    margin-top: 30px;
+    border: 3px solid #999999;
+}
+
+.tuCon{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    height: 45px;
+    background-color: #333333;
+    color: white;
+}
+
+.tuCon .tr1{
+    text-align: center;
+    width: 55px;
+    margin: 11px auto 11px 15px;
+    background-color:  #999999;
+    color: black;
+    font-weight: bold;
+    border-radius: 45%;
+}
+
+.tuCon .tr2{
+    text-align: left;
+    margin: 11px auto 5px 5px;
+    font-weight: bold;
+}
+
+.usuariosCon{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.imgUsuarioCon img{
+    width: 60px;
+    border-radius: 75%;
+    border: 3px solid black;
+} 
+
+.usuariosCon label{
+    margin: 15px 20px;
+    font-weight: bold;
+}
+
+.suConexion .mas{
+    height: 30px;
+    margin: 0px;
+    padding-top: 10px;
+    border-top: 3px solid #999999;
+    text-align: left;
+}
+
+.mas a{
+    margin-left: 15px;
+}
+
+/*PIE*/
+.pie{
+    border: 1px solid white;
+    background-color: #333333;
+    margin-top: 30px;
+    height: 75px;
+}
